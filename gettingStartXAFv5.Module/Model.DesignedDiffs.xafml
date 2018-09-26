@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="gettingStartXAFv5">
+  <BOModel>
+    <Class Name="gettingStartXAFv5.Module.BusinessObjects.User.EmpContact">
+      <OwnMembers>
+        <Member Name="Address" LookupProperty="Addr" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="17.1.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="Address_LookupListView">
+      <Columns>
+        <ColumnInfo Id="Oid" Caption="ID" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>
